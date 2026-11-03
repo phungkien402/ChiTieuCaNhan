@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wallet Card Shape -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M28,38 C28,34.686 30.686,32 34,32 L74,32 C77.314,32 80,34.686 80,38 L80,70 C80,73.314 77.314,76 74,76 L34,76 C30.686,76 28,73.314 28,70 Z" />
+    <!-- Wallet Flap & Clasp -->
+    <path
+        android:fillColor="#80CBC4"
+        android:pathData="M28,42 L80,42 L80,48 L28,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,50 C66,47.79 67.79,46 70,46 L80,46 L80,62 L70,62 C67.79,62 66,60.21 66,58 Z" />
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M73,54 A2,2 0 1,1 73,54.01" />
+    <!-- Golden Coin on top with split/plus symbol -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,26 C60.627,26 66,31.373 66,38 C66,44.627 60.627,50 54,50 C47.373,50 42,44.627 42,38 C42,31.373 47.373,26 54,26 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,32 L56,32 L56,36 L60,36 L60,40 L56,40 L56,44 L52,44 L52,40 L48,40 L48,36 L52,36 Z" />
+</vector>

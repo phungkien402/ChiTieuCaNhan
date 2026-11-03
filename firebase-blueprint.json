@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "Transaction": {
+      "collection": "users/{userId}/transactions",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "title": { "type": "string", "required": true },
+        "amount": { "type": "number", "required": true },
+        "type": { "type": "string", "required": true },
+        "category": { "type": "string", "required": true },
+        "note": { "type": "string", "required": false },
+        "timestamp": { "type": "timestamp", "required": true },
+        "createdAt": { "type": "timestamp", "required": false },
+        "updatedAt": { "type": "timestamp", "required": false }
+      }
+    },
+    "RoomMember": {
+      "collection": "users/{userId}/room_members",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "name": { "type": "string", "required": true },
+        "phone": { "type": "string", "required": false },
+        "avatarColor": { "type": "number", "required": false },
+        "totalOwed": { "type": "number", "required": false },
+        "createdAt": { "type": "timestamp", "required": false },
+        "updatedAt": { "type": "timestamp", "required": false }
+      }
+    },
+    "RoomSplit": {
+      "collection": "users/{userId}/room_splits",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "title": { "type": "string", "required": true },
+        "totalAmount": { "type": "number", "required": true },
+        "payerId": { "type": "string", "required": false },
+        "participantIds": { "type": "list", "required": true },
+        "splitAmountPerPerson": { "type": "number", "required": true },
+        "paidMemberIds": { "type": "list", "required": false },
+        "date": { "type": "timestamp", "required": true },
+        "createdAt": { "type": "timestamp", "required": false },
+        "updatedAt": { "type": "timestamp", "required": false }
+      }
+    },
+    "UrgentDebt": {
+      "collection": "users/{userId}/urgent_debts",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "title": { "type": "string", "required": true },
+        "amount": { "type": "number", "required": true },
+        "isPayable": { "type": "boolean", "required": true },
+        "contactName": { "type": "string", "required": true },
+        "dueDate": { "type": "timestamp", "required": false },
+        "isSettled": { "type": "boolean", "required": true },
+        "createdAt": { "type": "timestamp", "required": false },
+        "updatedAt": { "type": "timestamp", "required": false }
+      }
+    },
+    "UserSetting": {
+      "collection": "users/{userId}/settings",
+      "fields": {
+        "userId": { "type": "string", "required": true },
+        "monthlyBudget": { "type": "number", "required": false },
+        "reminderTimeHour": { "type": "number", "required": false },
+        "reminderTimeMinute": { "type": "number", "required": false },
+        "isReminderEnabled": { "type": "boolean", "required": false },
+        "updatedAt": { "type": "timestamp", "required": false }
+      }
+    }
+  }
+}

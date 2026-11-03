@@ -1,0 +1,6 @@
+{
+  "summary": "Kế hoạch kiến trúc và giao diện hoàn chỉnh cho ứng dụng Quản Lý Chi Tiêu & Chia Tiền Phòng (ChiTieuPro), bao gồm mô hình dữ liệu Firestore đồng bộ đám mây, đăng nhập Google qua Credential Manager, chia tiền ăn theo đầu người, quản lý nợ khẩn cấp, thống kê trực quan, chế độ dark mode, xuất dữ liệu và nhắc nhở chi tiêu.",
+  "updatedAt": "2026-10-14T04:03:31.021131680Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

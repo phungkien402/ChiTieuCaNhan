@@ -1,0 +1,6 @@
+{
+  "name": "Chi Tiêu Pro",
+  "description": "Quản lý chi tiêu cá nhân, sổ chia tiền phòng trọ và theo dõi nợ khẩn cấp",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
